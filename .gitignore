@@ -1,0 +1,83 @@
+# OSX
+.DS_Store
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+build/
+/ios/Pods
+/ios/build
+/android/app/build
+
+# Generated files
+*.ipa
+*.xcarchive
+*.xcworkspace
+*.pbxproj
+*.xcuserstate
+project.xcworkspace/
+
+# Android
+local.properties
+.android/
+android/**/build/
+android/**/production/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile.user.lock
+ios/Pods/Manifest.lock
+ios/DerivedData/
+ios/.generated/
+ios/*.xcconfig
+ios/*.plist
+ios/*.log
+ios/.env
+
+# Jest
+/__tests__/coverage
+/__tests__/*.js.snap
+/__tests__/test-results.xml
+/navigator_coverage/
+
+# Typescript
+*.tsbuildinfo
+
+# React Native Debugger
+ios/RNDebuggerAppDelegate.*
+
+# Eslint
+**/.eslintcache
+.eslintignore
+
+# Metro Bundler cache directory
+.cache/
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
