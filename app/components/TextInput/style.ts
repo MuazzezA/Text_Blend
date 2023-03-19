@@ -3,7 +3,6 @@ import size from '../../utils/size';
 
 export default StyleSheet.create({
   input: {
-    height: size.xlarge,
     width: size.width * 0.95,
     borderRadius: size.radius,
     backgroundColor: '#fff',
