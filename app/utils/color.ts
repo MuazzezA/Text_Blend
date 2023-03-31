@@ -3,4 +3,5 @@ export default {
     background: '#e6e8e6',
     red: "#ba181b",
     green: "#0ead69",
+    purple: "#37306B",
 }
