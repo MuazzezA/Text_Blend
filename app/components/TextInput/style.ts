@@ -8,7 +8,6 @@ export default StyleSheet.create({
     backgroundColor: '#fff',
     padding: 5,
     fontSize: size.font,
-    minHeight: size.height * 0.75,
-    maxHeight: size.height * 0.8,
+    height: size.height * 0.7,
   },
 });
