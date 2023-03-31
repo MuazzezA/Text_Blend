@@ -3,7 +3,7 @@ import color from '../../utils/color';
 import size from '../../utils/size';
 export default StyleSheet.create({
   button: {
-    backgroundColor: color.primary,
+    backgroundColor: color.purple,
     alignItems: 'center',
     padding: size.small,
     borderRadius: size.radius,
