@@ -35,9 +35,9 @@ export const FillSentence: React.FC<FillSentenceProps> = ({
   useEffect(() => {
     if (!check) {
       setOverStyle({backgroundColor: color.primary});
-    } else if (answer === trueAnswer) {
+    } else if (answer?.toLowerCase() || answer === trueAnswer) {
       setOverStyle({backgroundColor: color.green});
-    } else if (answer !== trueAnswer) {
+    } else if (answer?.toLowerCase() || answer !== trueAnswer) {
       setOverStyle({backgroundColor: color.red});
     } else {
       setOverStyle({backgroundColor: color.primary});
