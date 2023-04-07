@@ -1,7 +1,6 @@
-import { MainState, MainAction } from './MainContext';
+import { MainState, MainAction, MainStateFiltered } from './MainContext';
 
 export const reducer = (state: MainState, action: MainAction): MainState => {
-
     switch (action.type) {
         case 'set':
             return {
@@ -21,3 +20,25 @@ export const reducer = (state: MainState, action: MainAction): MainState => {
             return state;
     }
 };
+
+
+export const filteredReducer = (state: MainStateFiltered, action: MainAction): MainStateFiltered => {
+    switch (action.type) {
+        case 'set':
+            return {
+                ...state,
+                filteredParagraph: action.payload || "",
+            }
+        case "get":
+            return {
+                ...state,
+            }
+        case "delete":
+            return {
+                ...state,
+                filteredParagraph: '',
+            }
+        default:
+            return state;
+    }
+}
