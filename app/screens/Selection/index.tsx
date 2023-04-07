@@ -16,6 +16,11 @@ export const SelectionScreen: React.FC = () => {
           overStyle={style.button}
         />
         <Button
+          title={'Dinle ve Yaz'}
+          onPress={() => navigation.navigate('write-sentence-screen')}
+          overStyle={style.button}
+        />
+        <Button
           title={'Boşluk Doldur'}
           onPress={() => navigation.navigate('blank-screen')}
           overStyle={style.button}
