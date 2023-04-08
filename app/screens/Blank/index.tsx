@@ -32,7 +32,6 @@ export const BlankScreen: React.FC = () => {
           return <FillSentence sentence={item} check={check} />;
         }}
       />
-      <Text>{stateFiltered.filteredParagraph}</Text>
       <Button
         title={'Kontrol Et'}
         onPress={() => checkAnswer()}
