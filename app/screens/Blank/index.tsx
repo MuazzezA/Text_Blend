@@ -14,7 +14,7 @@ export const BlankScreen: React.FC = () => {
   stateFiltered.filteredParagraph.forEach(sentence => {
     const wordArray: string[] = [];
     sentence.match(wordRegex)?.forEach(word => {
-      wordArray.push(word);
+      word.length > 3 && wordArray.push(word);
     });
     filteredWords.push(wordArray);
   });
