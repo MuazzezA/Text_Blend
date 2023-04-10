@@ -25,7 +25,7 @@ export type MainAction = {
 
 const initialState: MainState = {
   paragraph:
-    'Sed sed velit dui. Praesent mollis lacus at turpis auctor posuere. Nullam id imperdiet dolor. Aenean finibus sed ex quis efficitur. Nam ac maximus augue, eu pellentesque nisi. Curabitur ullamcorper.',
+    'Text Blend is a mobile application designed to generate classic questions based on the given input text. With Text Blend, users can easily create a variety of different questions based on any text input, making it a versatile and useful tool for anyone looking to generate questions quickly and efficiently. Give it a try and see for yourself how it can simplify the process of question generation!',
 };
 
 const initialStateFiltered: MainStateFiltered = {
